@@ -1,3 +1,4 @@
 # Products and Categories
 
-# ProductsAndCategories
+## Solution 2
+
