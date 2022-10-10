@@ -7,8 +7,5 @@ import tylermaxwell.productsandcategories.models.Product;
 import java.util.List;
 
 public interface CategoryRepository extends CrudRepository<Category, Long> {
-    List<Category> findAll();
-    Category findByIdIs(Long id);
-    List<Category> findAllByProducts(Product product);
-    List<Category> findByProductsNotContains(Product product);
+
 }
